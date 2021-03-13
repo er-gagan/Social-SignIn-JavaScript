@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+
+    <script src="./FirebaseCredentials.js"></script>
+    <script src="./facebookCredentials.js"></script>
+    <script src="./twitterCredentials.js"></script>
+    <script src="./googleCredentials.js"></script>
+    <script src="./githubCredentials.js"></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button onclick="facebookSignIn()" class="fb btn">
+      <i class="fa fa-facebook fa-fw"></i>SignIn with Facebook
+    </button>
+
+    <button onclick="twitterSignIn()" class="twitter btn">
+      <i class="fa fa-twitter fa-fw"></i>SignIn with Twitter
+    </button>
+
+    <button onclick="googleSignIn()" class="google btn">
+      <i class="fa fa-google fa-fw"> </i>SignIn with Google
+    </button>
+
+    <button onclick="githubSignIn()" class="github btn">
+      <i class="fa fa-github fa-fw"> </i>SignIn with Github
+    </button>
+  </body>
+</html>
